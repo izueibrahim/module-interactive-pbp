@@ -1,0 +1,115 @@
+/*******************************/
+/* COLOUR PALETTE */
+/*******************************/
+:root {
+  --black: #000000;
+  --white: #FFFFFF;
+
+  --grey-01: #E4E4E4;
+
+  --light-primary-01: #E2F3F1;
+  --light-primary-02: #8ECDC7;
+  --light-primary-03: #63BBB2;
+  --light-primary-04: #449C93;
+  --light-primary-05: #32716B;
+  --light-primary-06: #1F4743;
+
+  --dark-primary-01: #DCF8F9;
+  --dark-primary-02: #18969C;
+  --dark-primary-03: #16878D;
+  --dark-primary-04: #13767C;
+  --dark-primary-05: #11656A;
+  --dark-primary-06: #0B4346;
+
+  --secondary-01-01: #FCF6EE;
+  --secondary-01-02: #F3DDBA;
+  --secondary-01-03: #EAC386;
+  --secondary-01-04: #E0AA52;
+  --secondary-01-05: #D08E25;
+  --secondary-01-06: #AD771F;
+
+  --secondary-02-01: #EEF5E1;
+  --secondary-02-02: #D4E5B3;
+  --secondary-02-03: #C4DB95;
+  --secondary-02-04: #B4D076;
+  --secondary-02-05: #A3C658;
+  --secondary-02-06: #90B63E;
+
+  --secondary-03-01: #FDE9D9;
+  --secondary-03-02: #FAD3B3;
+  --secondary-03-03: #F7BC8D;
+  --secondary-03-04: #F4A666;
+  --secondary-03-05: #F29040;
+  --secondary-03-06: #EF7A1A;
+
+  --secondary-04-01: #FAEFF4;
+  --secondary-04-02: #F1D0DE;
+  --secondary-04-03: #E8B0C8;
+  --secondary-04-04: #DF90B2;
+  --secondary-04-05: #D6719C;
+  --secondary-04-06: #CD5187;
+
+  --secondary-05-01: #CBE5F6;
+  --secondary-05-02: #96CAED;
+  --secondary-05-03: #62B0E4;
+  --secondary-05-04: #2E96DC;
+  --secondary-05-05: #1E74AE;
+  --secondary-05-06: #15527A;
+
+  --accent-01: #F5F5F5;
+  --accent-02: #E4E4E4;
+  --accent-03: #D6D6D6;
+  --accent-04: #333333;
+  --accent-05: #141414;
+}
+
+.hero-container-bg-color {
+  background-color: var(--light-primary-01);
+}
+
+.btn-primary-bg-color {
+  background-color: var(--accent-05);
+}
+
+.bg-color-light-primary-01 {
+  background-color: var(--light-primary-01);
+}
+
+.bg-color-secondary-01-01 {
+  background-color: var(--secondary-01-01);
+}
+
+.bg-color-secondary-02-01 {
+  background-color: var(--secondary-02-01);
+}
+
+.bg-color-secondary-02-04 {
+  background-color: var(--secondary-02-04);
+}
+
+.bg-color-secondary-03-04 {
+  background-color: var(--secondary-03-04);
+}
+
+.bg-color-secondary-04-04 {
+  background-color: var(--secondary-04-04);
+}
+
+.border-color-dark-primary-04 {
+  border-color: var(--dark-primary-04);
+}
+
+.border-color-secondary-01-06 {
+  border-color: var(--secondary-01-06);
+}
+
+.border-color-secondary-02-06 {
+  border-color: var(--secondary-02-06);
+}
+
+blockquote p::before,
+blockquote p::after {
+   color: var(--dark-primary-04);
+}
+
+
